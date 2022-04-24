@@ -3,7 +3,7 @@
 # Eutropia
 Open Source ESP32 Multi Sensor Platform I/O
 
-This PCB design offers numerous optional features and configurations built around the ESP-WROOM-32 30PIN module.
+This PCB design offers numerous optional features and configurations built around the ESP-WROOM-32 30PIN module. 
 
 ## Feature list:
 
@@ -19,6 +19,7 @@ Water Ingress Sensor
 1 Input/Output Port  
 1 Input Port  
 2 Neo Pixel LEDs  
+Mounting Holes For Nextion 2.8" Serial Display
 
 ## ESP32 I/O configuration:
 
