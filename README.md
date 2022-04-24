@@ -1,3 +1,4 @@
-![Screenshot 2022-04-23 200621](https://user-images.githubusercontent.com/104283546/164954545-db96cdb4-d780-4ecf-87be-defcda44b149.jpg)
+![Eutropia](https://user-images.githubusercontent.com/104283546/164954573-7f3e9123-8814-4765-9205-acdbbc47fc08.jpg)
+
 # Eutropia
 ESP32 Multi Sensor Platform I/O
