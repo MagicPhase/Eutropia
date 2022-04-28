@@ -7,28 +7,29 @@
 # Eutropia
 Open Source ESP32 Multi Sensor Platform. 
 
-This PCB design offers numerous optional features and configurations built around the ESP-WROOM-32 30PIN module. The footprint is designed to match with the Nextion 2.8" Smart Displays.
+This PCB design offers numerous optional features and configurations built around the ESP-WROOM-32 30PIN module. The footprint is designed to match with the Nextion 2.8" Smart Displays. The primary desgin goal was to have a wide range of sensor inputs coupled with high current outputs to fit an equally wide range of applications. This includes a reasonably small footprint for portability and battery operation.
 
 ## Feature list:
 
->2 High Power Outputs  
-2 Optocouple Outputs  
-2 Medium Power Outputs  
-Current/Voltage sensing  
-RTC Clock  
-Low Pressure Sensor  
-Accelerometer/Gyro  
-Humidity Sensor  
-Water Ingress Sensor  
-1 Input/Output Port  
-1 Input Port  
-2 Neo Pixel LEDs  
-Mounting Holes For Nextion 2.8" Serial Display
+- 2 High Power Outputs  
+- 2 Optocouple Outputs  
+- 2 Medium Power Outputs  
+- Current/Voltage sensing  
+- RTC Clock  
+- Low Pressure Sensor  
+- Accelerometer/Gyro  
+- Humidity Sensor  
+- Water Ingress Sensor  
+- 1 Input/Output Port  
+- 1 Input Port (multifuntion) 
+- 2 Neo Pixel LEDs  
+- Mounting Holes For Nextion 2.8" Serial Display
 
 ## ESP32 I/O configuration:
 
 >D39(I) Attached to INA3221 programable warning for over current monitor.  
->D36(I) Labelled (AUX1) pin is attached to 3-pin header for general use as default. JP3 can connect the MPU (INT) pin for auto calibration. JP1 can connect to water ingress sensor. Only one function can be used.  
+>D36(I) Labelled (AUX1) pin is attached to 3-pin header for general use as default. 
+JP3 can connect the MPU (INT) pin for auto calibration. JP1 can connect to water ingress sensor. Only one function can be used.  
 >D35(I) Input for thermal sensor near CH2 FET.  
 >D34(I) Input for thermal sensor near CH' FET.  
 >D33(IO) Output PWM for CH2 FET via driver (MIC4127 CHB).  
@@ -41,7 +42,7 @@ Mounting Holes For Nextion 2.8" Serial Display
 >D19(IO) Output PWM for CH4 FET.  
 >D18(IO) Output PWM for CH3 FET.  
 >D5(IO) Attached to 2 JTS headers with 4.7k pullup resistor. These are intended for DS18D20 temp sensors.  
->D1(IO) Attached to the input of the Neo Pixel (SK6805). This pin is also used for Serial1 during programing.  
+>D1(IO) Attached to the input of the Neo Pixel (SK6805). This pin is also used for Serial during programing.  
 All other IO pins are left unattached as to not interfere during WiFi operations.  
 
 ## Board Headers:
