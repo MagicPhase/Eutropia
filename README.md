@@ -42,7 +42,7 @@ JP3 can connect the MPU (INT) pin for auto calibration. JP1 can connect to water
 >D19(IO) Output PWM for CH4 FET.  
 >D18(IO) Output PWM for CH3 FET.  
 >D5(IO) Attached to 2 JTS headers with 4.7k pullup resistor. These are intended for DS18D20 temp sensors.  
->D1(IO) Attached to the input of the Neo Pixel (SK6805). This pin is also used for Serial during programing.  
+>D1(IO) Attached to the input of the Neo Pixel (SK6805). This pin is also used by the Serial port during programing.  
 All other IO pins are left unattached as to not interfere during WiFi operations.  
 
 ## Board Headers:
