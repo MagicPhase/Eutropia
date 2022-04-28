@@ -1,6 +1,6 @@
 
 ![Screenshot 2022-04-27 044346](https://user-images.githubusercontent.com/104283546/165511208-096bcb36-2eb3-4768-abb3-4975332bfc1a.jpg)
-![Screenshot 2022-04-27 044554](https://user-images.githubusercontent.com/104283546/165511366-3dfcaa68-a1d1-427f-8283-d8a27caedd4f.jpg)
+![Screenshot 2022-04-27 044554](https://user-images.githubusercontent.com/104283546/165738049-113c132d-18fc-45b7-a367-247cb2204beb.jpg)
 
 
 
@@ -57,7 +57,8 @@ All other IO pins are left unattached as to not interfere during WiFi operations
 >HEADER5 Serial2  PinHeader_1x04_P2.50mm  
 
 ![FRONT](https://user-images.githubusercontent.com/104283546/164965498-b922744d-df44-4200-ac65-a51fc8249713.jpg)
-![BACK](https://user-images.githubusercontent.com/104283546/164965507-1e455e87-d51f-41b4-841b-f92ce21fc81c.jpg)
+<img width="1573" alt="BACK" src="https://user-images.githubusercontent.com/104283546/165738065-cdb9ca00-b799-44d8-a73b-9433489cdbb7.png">
+
 
 
 Two High Power FET's capable of >50watt output. These channels have current/voltage monitoring, thermal monitoring, and safety fuses. These outputs are selectable with two optocoupler drivers via a jumper header.
