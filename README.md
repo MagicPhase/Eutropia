@@ -5,9 +5,9 @@
 
 
 # Eutropia
-Open Source ESP32 Multi Sensor Platform I/O
+Open Source ESP32 Multi Sensor Platform. 
 
-This PCB design offers numerous optional features and configurations built around the ESP-WROOM-32 30PIN module. 
+This PCB design offers numerous optional features and configurations built around the ESP-WROOM-32 30PIN module. The footprint is designed to match with the Nextion 2.8" Smart Displays.
 
 ## Feature list:
 
