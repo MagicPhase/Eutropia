@@ -1,0 +1,17 @@
+(footprint "d22ce012-2fd7-45db-96b5-83cda7ebcca8" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6235E4B1)
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp e2b639a0-306b-4756-80c0-58307f5b2a13)
+  )
+  (fp_text value "500ASSP1M6QE" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 81f4f4f8-3740-495f-96ce-889863d8768f)
+  )
+  (pad "1" thru_hole circle (at -5.08 -5.08 180) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 0a8fb98b-26c6-43af-94b5-0a498a75c195))
+  (pad "1" thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 3244661c-136a-4ece-9029-899d697e6ed3))
+  (pad "2" thru_hole circle (at 0 -5.08 180) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 22236075-2228-40f3-8f6c-706192bcb374))
+  (pad "3" thru_hole circle (at 0 -2.54 180) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 83732015-4831-4c72-822f-1fe14459c280))
+  (pad "4" thru_hole circle (at 0 0 180) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp e3a8b4a2-8f79-46b0-8eb1-af885282acaa))
+)

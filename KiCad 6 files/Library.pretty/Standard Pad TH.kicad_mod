@@ -1,0 +1,14 @@
+(footprint "Standard Pad TH" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61DF9288)
+  (attr through_hole)
+  (fp_text reference "REF**" (at -0.01 -2.83 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 51968e8d-c85f-4159-8ef0-fdfbfe6a1429)
+  )
+  (fp_text value " " (at -0.05 2.14 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d2ffe2d2-e413-4c8d-b54e-cad407324726)
+  )
+  (pad "1" thru_hole circle (at -0.08 -0.06) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp 8c98fed0-59cf-439c-9da3-211c5b1353e2))
+)
